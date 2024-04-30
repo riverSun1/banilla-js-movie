@@ -1,4 +1,5 @@
 * {
+  /* 설정한 width와 height 값이 안쪽 여백과 테두리까지 포함 */
   box-sizing: border-box;
 }
 
@@ -29,7 +30,7 @@ header {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: white;
-  cursor: pointer;
+  cursor: auto;
 }
 
 main {
@@ -98,7 +99,7 @@ main {
   transition: transform 0.3s ease-in;
 }
 
-.overview>h3 {
+.overview > h3 {
   color: orangered;
 }
 
@@ -119,7 +120,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 
 .pagination {
   margin-top: 20px;
